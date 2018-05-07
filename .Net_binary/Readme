@@ -1,6 +1,6 @@
 //***********************************************
-TMCAS: An  MQTT based anti Collision Prototype 
-Simulator for Railway Networks
+TMCAS: TMCAS is a simulator for an MQTT Based 
+anti-collision prototype for railway networks.
 Authors: B. Mishra, A. Pati, B. Mishra
 *************************************************//
 ********************
