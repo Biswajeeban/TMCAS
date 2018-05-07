@@ -1,1 +1,16 @@
-
+//***********************************************
+TMCAS: An  MQTT based anti Collision Prototype 
+Simulator for Railway Networks
+Authors: Biswajeeban Mishra, Adhyatmananda Pati
+*************************************************//
+********************
+System Requirements
+*******************
+Hardware
+	1. RAM 2GB(Min)
+	2. HDD 100 MB (Min)
+	3. Resolution ( 1920 x 1080 )
+Software
+	1. Windows 8.1 or Higher
+	2. .Net Framework 4.5.2 or higher
+	3. Active Internet Connection
