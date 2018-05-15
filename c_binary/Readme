@@ -1,1 +1,27 @@
+how to simulate:
+#1: run tsav control server (./tsav_ctrl ../mqtt_broker.cfg)
+#2: run train code [train 1] (./mqtt_client_trial ../train1.cfg ../mqtt_broker.cfg)
+#3: run train code [train 2] (./mqtt_client_trial ../train2.cfg ../mqtt_broker.cfg)
+
+config files:
+
+#1: mqtt_broker_server.cfg <stores broker server url includingport info>
+sample broker server contents(below):
+tcp://broker.hivemq.com:1883
+
+#2: train.cfg <stores route id(rid), location(loc). train id(tid), velocity and direction.
+
+sample train config contents below:
+rid=63
+loc=15
+tid=1005
+velocity=60
+direction=1
+
+config file explanations:
+rid: any integer value (trains shoudl run on same route(rid) to simulate collision avoidance)
+loc: location can have fixed values from 1 to 15.
+tid: integer value (unique train id)
+velocity: interger value between (0 to 60)
+direction: 1(up) or 0(down). 
 
